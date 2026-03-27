@@ -4,7 +4,7 @@ import re
 import base64
 from requests_toolbelt.multipart.encoder import MultipartEncoder
 
-TOKEN = "8740209519:AAFqn8kO0XgUfVfz6RHRXKWk8ZhCyiP7vqk"
+TOKEN = "8740209519:AAFPfns0Byh0vlkWwNxuNWAD8xBcXxsGjOI"
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
 
 def check_gateway(ccx):
